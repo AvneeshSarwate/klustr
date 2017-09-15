@@ -1,0 +1,5 @@
+*.pyc
+*.ipynb
+.gitignore
+*.DS_Store
+audioNotebooks/drumData/
