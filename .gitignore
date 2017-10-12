@@ -1,5 +1,5 @@
 *.pyc
-*.ipynb
 .gitignore
 *.DS_Store
 audioNotebooks/drumData/
+*.ipynb_checkpoints
