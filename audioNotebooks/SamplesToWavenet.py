@@ -59,7 +59,7 @@ def custom_encode(wav_data, checkpoint_path, drum_name, sample_length=64000):
             samples_wavenet.append(encodings)
         samples_wavenet = np.asarray(samples_wavenet)
         print (drum_name, samples_wavenet.shape)
-        file_path = './drumEmbeddings/' + drum_name + '_wavenet.npy'
+        file_path = './drumData/' + drum_name + '_wavenet.npy'
         np.save(file_path, samples_wavenet)
 
 def testload_nsynth(batch_size=1, sample_length=64000):
